@@ -42,7 +42,7 @@
   "scripts": {
     "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
     "build": "babel src -d lib",
-      "test": "jest",
+    "test": "jest",
     "eject": "react-scripts eject",
     "ghp": "react-scripts build && gh-pages -d build"
   },
